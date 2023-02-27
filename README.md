@@ -24,13 +24,11 @@ This is a responsive navbar design that can be used on your website. It is built
 2. Open the `index.html` file in your browser to see the navbar in action.
 3. To customize the colors and fonts, open the `style.css` file and modify the appropriate CSS variables at the top of the file.
 
-## Demo
 
-You can see a live demo of the responsive navbar design at [https://example.com](https://example.com).
 
 ## Credits
 
-This navbar design was inspired by [https://example.com](https://example.com) and was built by [Your Name].
+This navbar design  was built by [Hasan ÇELİK].
 
 ## License
 
@@ -38,11 +36,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgements
 
-Thank you to [Name of person or organization] for their help and support in building this responsive navbar design.
+Thank you to [Mehmet Can Seyhan] for their help and support in building this responsive navbar design.
 
-## Screenshots
 
-![Desktop Screenshot](/screenshots/desktop.png)
-
-![Mobile Screenshot](/screenshots/mobile.png)
 
