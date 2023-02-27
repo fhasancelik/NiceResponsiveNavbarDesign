@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive NavBar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+   
+    <link rel="stylesheet" href="reset.css">
+   
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body id="body">
+        <!--Header Base Start-->
+  <header>
+    <div class="logo">
+        <img src="logo.svg" alt="">
+    </div>
+<!--Menu Bar Start-->
+    <nav class="menu-bar">
+
+        <!--Menu Links Start-->
+        <div class="menulinks">
+            <a href="" class="menu-link">Home</a>
+<a href="" class="menu-link">Menu</a>
+<a href="" class="menu-link">About</a>
+<a href="" class="menu-link">Contact</a>
+
+        </div>
+        <div class="btn"> <a href="" >Project Table</a>
+        </div>
+       
+        
+        <!--Menu Links End-->
+      
+         
+
+    </nav>
+
+    <!--Menu Bar End-->
+
+
+    <i class="fa-solid fa-bars" id="openMenuButton" onclick="openMenu()"></i>
+  </header>
+  
+    <!--Menu Bar Start-->
+    <nav id="mini-menu-bar">
+
+        <!--Menu Links Start-->
+        <div class="mini-menulinks">
+            <a href="" class="menu-link">Home</a>
+<a href="" class="menu-link">Menu</a>
+<a href="" class="menu-link">About</a>
+<a href="" class="menu-link">Contact</a>
+<div class="btn"> <a href="" >Project Table</a>
+</div>
+        </div>
+         <!--Menu Links End-->
+         <div class="closeBtnCont">
+            <i class="fa-solid fa-xmark" id="closeMenuButton" onclick="closeMenu()"></i>
+         </div>
+         
+
+    </nav>
+
+    <!--Menu Bar End-->
+
+   <!--Header Base End-->
+
+   <script src="app.js"></script>
+</body>
+</html>
